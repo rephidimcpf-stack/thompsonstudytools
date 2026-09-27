@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d2231"/>
+      <stop offset="1" stop-color="#43111c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d98a"/>
+      <stop offset="1" stop-color="#c9992f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <!-- cross -->
+  <g stroke="#e9c56d" stroke-width="20" stroke-linecap="round">
+    <path d="M256 56 L256 108"/>
+    <path d="M226 74 L286 74"/>
+  </g>
+  <!-- two interlocking chain links -->
+  <g fill="none" stroke="url(#gold)" stroke-width="24" stroke-linecap="round">
+    <rect x="150" y="128" width="104" height="58" rx="29"/>
+    <rect x="258" y="128" width="104" height="58" rx="29"/>
+  </g>
+  <!-- open bible -->
+  <path d="M96 258 C150 238 208 240 254 262 C300 240 358 238 412 258 L412 420 C358 400 300 398 254 420 C208 398 150 400 96 420 Z" fill="url(#gold)"/>
+  <path d="M254 262 L254 420" stroke="#43111c" stroke-width="10"/>
+  <!-- page lines -->
+  <g stroke="#43111c" stroke-width="9" stroke-linecap="round" opacity="0.5">
+    <path d="M128 288 L216 280"/><path d="M128 316 L216 308"/><path d="M128 344 L200 336"/><path d="M128 372 L216 364"/>
+    <path d="M292 280 L380 288"/><path d="M292 308 L380 316"/><path d="M292 336 L360 344"/><path d="M292 364 L380 372"/>
+  </g>
+</svg>

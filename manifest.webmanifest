@@ -1,0 +1,31 @@
+{
+  "name": "Thompson Study Companion — KJV + Telugu Bible",
+  "short_name": "Thompson Study",
+  "description": "Thompson Chain-Reference study helps: Numerical Index of Topics, Condensed Outline, Character Studies, Topical Treasury, Christian Worker's Text, full KJV Concordance, with integrated Telugu Bible.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf6ef",
+  "theme_color": "#5d1a24",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
